@@ -1,2 +1,2 @@
-# Earth's Last-Chance
+# Earth's Last Chance
  
