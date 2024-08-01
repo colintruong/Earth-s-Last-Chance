@@ -12,11 +12,11 @@ public class GameHandler : MonoBehaviour {
         float mousePosY = Input.mousePosition.y;
         int scrollDistance = 30;
         if (mousePosX < scrollDistance) {
-            transform.Translate(Vector3.right * -scrollSpeed * Time.deltaTime);
+            transform.Translate(Vector2.right * -scrollSpeed * Time.deltaTime);
         }
 
         if (mousePosX >= Screen.width - scrollDistance) {
-            transform.Translate(Vector3.right * scrollSpeed * Time.deltaTime);
+            transform.Translate(Vector2.right * scrollSpeed * Time.deltaTime);
         }
     }
 }
