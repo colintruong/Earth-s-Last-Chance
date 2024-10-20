@@ -130,15 +130,15 @@ TextureImporter:
         y: 16
         width: 78
         height: 141
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5db9482f4fb74d46865e3c02175468e
-      internalID: -874014224
+      spriteID: b3d4f90df651ec64f82601bf29d95098
+      internalID: -158669887
       vertices: []
       indices: 
       edges: []
@@ -151,15 +151,15 @@ TextureImporter:
         y: 15
         width: 81
         height: 144
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2a2db65faa98e943ac68ac9fc858794
-      internalID: 1526159361
+      spriteID: 8d5d44ed52075da41b6b9fded62e219e
+      internalID: 1604611333
       vertices: []
       indices: 
       edges: []
@@ -172,15 +172,15 @@ TextureImporter:
         y: 15
         width: 80
         height: 144
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d50499b884a2d4d85954f074b049b4
-      internalID: -1227309117
+      spriteID: 529394abd87d8f54b892864ccea14f84
+      internalID: 1536384359
       vertices: []
       indices: 
       edges: []
@@ -193,15 +193,15 @@ TextureImporter:
         y: 20
         width: 74
         height: 141
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc83e88f8550204eb3592396ce7fb1b
-      internalID: -1600564869
+      spriteID: 59108c7b350774f429453cb1aafc7996
+      internalID: -1744084094
       vertices: []
       indices: 
       edges: []
@@ -212,17 +212,101 @@ TextureImporter:
         serializedVersion: 2
         x: 409
         y: 20
-        width: 95
+        width: 93
         height: 141
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c8484396f01f8468b5ffa7c3bf0168
-      internalID: 822248292
+      spriteID: 1943f2d03060d3046addf6576b071fd7
+      internalID: -1238675754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAWLER PUNCH FULL_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 22
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c017ecfd6b9d34bacf101344f481c9
+      internalID: -120033370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAWLER PUNCH FULL_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 21
+        width: 69
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532cea3a11f4055439bb60e91cd3fbe7
+      internalID: 1306381270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAWLER PUNCH FULL_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 16
+        width: 81
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b151415b2a0cfd04f92b6f69636f5047
+      internalID: -2099064904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BRAWLER PUNCH FULL_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 17
+        width: 78
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b56327432c1644888f956a5e04ef84
+      internalID: -1129318162
       vertices: []
       indices: 
       edges: []
@@ -238,11 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BRAWLER PUNCH FULL_0: -874014224
-      BRAWLER PUNCH FULL_1: 1526159361
-      BRAWLER PUNCH FULL_2: -1227309117
-      BRAWLER PUNCH FULL_3: -1600564869
-      BRAWLER PUNCH FULL_4: 822248292
+      BRAWLER PUNCH FULL_0: -158669887
+      BRAWLER PUNCH FULL_1: 1604611333
+      BRAWLER PUNCH FULL_2: 1536384359
+      BRAWLER PUNCH FULL_3: -1744084094
+      BRAWLER PUNCH FULL_4: -1238675754
+      BRAWLER PUNCH FULL_5: -120033370
+      BRAWLER PUNCH FULL_6: 1306381270
+      BRAWLER PUNCH FULL_7: -2099064904
+      BRAWLER PUNCH FULL_8: -1129318162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

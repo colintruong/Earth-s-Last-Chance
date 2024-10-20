@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7efaeacb1052443920ac890938bfa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brawlerPrefab: {fileID: 7817522212647544082, guid: a7d766cb54a29304982a1a8b612e03b2, type: 3}
+  brawlerPrefab: {fileID: 8142094865393116357, guid: b24a2a1c272fb0e49aafb6f825865cd5, type: 3}
 --- !u!4 &335233735
 Transform:
   m_ObjectHideFlags: 0
