@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8740c2111a737584e9aeee199be82cdf
+guid: bcaf5361df7b7124184b68b9b8668767
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 35
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_0
+      name: BRAWLER WALK_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 24
-        width: 20
-        height: 47
+        x: 29
+        y: 18
+        width: 60
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87016f7c8672d9b4da52c15fd6b39066
-      internalID: 196630676
+      spriteID: 8fa9dd05a9e271349ae16833c946be95
+      internalID: -634006005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_1
+      name: BRAWLER WALK_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 24
-        width: 25
-        height: 46
+        x: 128
+        y: 21
+        width: 75
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48382e6a71444aa468c6d9d12702d50d
-      internalID: -355421249
+      spriteID: 91f881093b1402e44b79c540719fe0fb
+      internalID: 929464021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_2
+      name: BRAWLER WALK_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 25
-        width: 23
-        height: 46
+        x: 240
+        y: 21
+        width: 69
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4d7153e6f62514468165733a65b18ff
-      internalID: 352486651
+      spriteID: c739f6d76271a004091cfd4e7c33e497
+      internalID: 1570835341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_3
+      name: BRAWLER WALK_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 25
-        width: 22
-        height: 46
+        x: 346
+        y: 21
+        width: 66
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51334c6d8c870294888423e9212090b2
-      internalID: -757933637
+      spriteID: b7412e8bd1657924e872874e34b0b391
+      internalID: 1898349671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_4
+      name: BRAWLER WALK_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 24
-        width: 24
-        height: 47
+        x: 447
+        y: 18
+        width: 72
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff29e28c76af8624db9af765ac3527bd
-      internalID: 41467439
+      spriteID: d3af1caed73634a40909dc7b28023c08
+      internalID: 571289270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_5
+      name: BRAWLER WALK_5
       rect:
         serializedVersion: 2
-        x: 334
-        y: 24
-        width: 28
-        height: 46
+        x: 558
+        y: 21
+        width: 84
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44fe978e680869c409fadf947fae3068
-      internalID: -1998277403
+      spriteID: 6ba865878aa7f4d4bba2b92ebfd1b60d
+      internalID: 1098143898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_6
+      name: BRAWLER WALK_6
       rect:
         serializedVersion: 2
-        x: 399
-        y: 24
-        width: 24
-        height: 47
+        x: 676
+        y: 18
+        width: 72
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc02af7f58bfb34aaaae8c9754c138b
-      internalID: -1368027190
+      spriteID: 0108c68b726ea45418256f93d387be7e
+      internalID: 2043009343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_7
+      name: BRAWLER WALK_7
       rect:
         serializedVersion: 2
-        x: 464
-        y: 24
-        width: 23
-        height: 47
+        x: 799
+        y: 18
+        width: 69
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a95a18a901a8849bdb5a8f42df2d22
-      internalID: -1456673738
+      spriteID: de2ac7dcdade6944ebc74b021005be76
+      internalID: 1187405667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BRAWLER WALK FULL_8
+      name: BRAWLER WALK_8
       rect:
         serializedVersion: 2
-        x: 529
-        y: 24
-        width: 22
-        height: 47
+        x: 936
+        y: 18
+        width: 66
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: febe55001f24ec4418cb825dab4f6a63
-      internalID: -2099032171
+      spriteID: 4f130990b7e50704fa8a49e140d3548f
+      internalID: -535621240
       vertices: []
       indices: 
       edges: []
@@ -322,15 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BRAWLER WALK FULL_0: 196630676
-      BRAWLER WALK FULL_1: -355421249
-      BRAWLER WALK FULL_2: 352486651
-      BRAWLER WALK FULL_3: -757933637
-      BRAWLER WALK FULL_4: 41467439
-      BRAWLER WALK FULL_5: -1998277403
-      BRAWLER WALK FULL_6: -1368027190
-      BRAWLER WALK FULL_7: -1456673738
-      BRAWLER WALK FULL_8: -2099032171
+      BRAWLER WALK_0: -634006005
+      BRAWLER WALK_1: 929464021
+      BRAWLER WALK_2: 1570835341
+      BRAWLER WALK_3: 1898349671
+      BRAWLER WALK_4: 571289270
+      BRAWLER WALK_5: 1098143898
+      BRAWLER WALK_6: 2043009343
+      BRAWLER WALK_7: 1187405667
+      BRAWLER WALK_8: -535621240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
