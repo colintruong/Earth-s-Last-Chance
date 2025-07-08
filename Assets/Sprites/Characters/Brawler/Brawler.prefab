@@ -231,6 +231,7 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
+  punchDamage: 25
 --- !u!212 &1890945188045341812
 SpriteRenderer:
   m_ObjectHideFlags: 0

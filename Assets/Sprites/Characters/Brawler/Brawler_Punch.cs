@@ -1,10 +1,10 @@
 using UnityEngine;
-using System.Collections;
 
 [RequireComponent(typeof(Animator))]
 public class Brawler_Punch : MonoBehaviour {
     public float detectionRadius = 0.5f;
     public LayerMask enemyLayer;
+    [SerializeField] public float punchDamage;
 
     private Animator animator;
     private Brawler_Move moveScript;
@@ -17,9 +17,8 @@ public class Brawler_Punch : MonoBehaviour {
     }
 
     void Update() {
-        if (isPunching) return; // Ignore detection during punch
+        if (isPunching) return;
 
-        // Check for nearby enemies
         Collider2D enemy = Physics2D.OverlapCircle(transform.position, detectionRadius, enemyLayer);
 
         if (enemy != null) {
@@ -27,21 +26,31 @@ public class Brawler_Punch : MonoBehaviour {
             isPunching = true;
             moveScript.enabled = false;
             animator.SetBool("Attacking", true);
-            StartCoroutine(PerformPunchRoutine());
+        }
+    }
+    public void PunchDamageEvent() {
+        if (currentEnemy == null) return;
+
+        HealthBar health = currentEnemy.GetComponent<HealthBar>();
+        if (health != null) {
+            health.TakeDamage(punchDamage);
+
+            // Stop punching if enemy is destroyed
+            if (currentEnemy == null || currentEnemy.gameObject == null) {
+                animator.SetBool("Attacking", false);
+                moveScript.enabled = true;
+                isPunching = false;
+                currentEnemy = null;
+            }
         }
     }
 
-    private IEnumerator PerformPunchRoutine() {
-        yield return new WaitForSeconds(3f); // Wait 3 seconds
-
-        if (currentEnemy != null) {
-            Destroy(currentEnemy.gameObject); // Remove enemy
+    public void PunchAnimationEndEvent() {
+        if (currentEnemy == null) {
+            animator.SetBool("Attacking", false);
+            moveScript.enabled = true;
+            isPunching = false;
         }
-
-        isPunching = false;
-        animator.SetBool("Attacking", false);
-        moveScript.enabled = true; // Resume walking
-        currentEnemy = null;
     }
 
     void OnDrawGizmosSelected() {

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 31e7db9e387a8a249867d18230ec85ac
+guid: 85e2ca6bddbce1b44adbce0a871a7b46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1234416467231346186
-    second: Health bar_0
+      213: 4507162162781784842
+    second: Border_0
+  - first:
+      213: 9025258261241886631
+    second: Border_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,17 +49,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 5, y: 5, z: 5, w: 5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -100,55 +103,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Health bar_0
+      name: Border_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 300
-        height: 60
+        y: 53
+        width: 302
+        height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0e873a9c37812110800000000000000
-      internalID: 1234416467231346186
+      spriteID: a0b80b96b18ac8e30800000000000000
+      internalID: 4507162162781784842
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline:
-    - - {x: 150, y: 18}
-      - {x: 143, y: 30}
-      - {x: -144, y: 30}
-      - {x: -150, y: 25}
-      - {x: -150, y: -22}
-      - {x: -149, y: -30}
-      - {x: 150, y: -30}
-    - - {x: -132, y: -22}
-      - {x: -131, y: -19}
-      - {x: -139, y: -11}
-      - {x: -142, y: 12}
-      - {x: -139, y: 11}
-      - {x: -131, y: 19}
-      - {x: -132, y: 22}
-      - {x: 132, y: 22}
-      - {x: 131, y: 19}
-      - {x: 136, y: 13}
-      - {x: 142, y: 12}
-      - {x: 142, y: -12}
-      - {x: 139, y: -9}
-      - {x: 131, y: -19}
-      - {x: 132, y: -22}
+    - serializedVersion: 2
+      name: Border_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a77b7b1298204d70800000000000000
+      internalID: 9025258261241886631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 34a2c91a59cdf674b947530f2c467a61
-    internalID: 1431046751
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -157,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Health bar_0: 1234416467231346186
+      Border_0: 4507162162781784842
+      Border_1: 9025258261241886631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

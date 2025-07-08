@@ -594,8 +594,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.31001282, y: -0.15998077}
-  m_SizeDelta: {x: -7.340027, y: 52.05}
+  m_AnchoredPosition: {x: -0.72998047, y: 0.88}
+  m_SizeDelta: {x: -12.96, y: 23.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &487753284
 MonoBehaviour:
@@ -746,6 +746,7 @@ GameObject:
   - component: {fileID: 572286621}
   - component: {fileID: 572286620}
   - component: {fileID: 572286619}
+  - component: {fileID: 572286622}
   m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
@@ -832,7 +833,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0.052272797, a: 1}
   m_FlipX: 0
@@ -853,12 +854,28 @@ Transform:
   m_GameObject: {fileID: 572286618}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.37, y: -1.86, z: 0}
+  m_LocalPosition: {x: 6.6, y: -1.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1524797582}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572286622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572286618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00d677848957f2489cd310701347632, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  healthBarFill: {fileID: 1306849168}
+  healthBarUI: {fileID: 1524797581}
 --- !u!1 &768797585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1187,7 @@ Transform:
   m_GameObject: {fileID: 993027398}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.575905, y: 0.42341998, z: -28.258768}
+  m_LocalPosition: {x: 2.5985518, y: 0.42304, z: -28.258768}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1443,7 +1460,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1193148642
 Canvas:
   m_ObjectHideFlags: 0
@@ -1453,7 +1470,7 @@ Canvas:
   m_GameObject: {fileID: 1193148639}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_Camera: {fileID: 993027400}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1475,19 +1492,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193148639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 71.741234}
+  m_LocalScale: {x: 0.01992032, y: 0.01992032, z: 0.01992032}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 131143127}
-  - {fileID: 1524797582}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.575905, y: 0.42341998}
+  m_SizeDelta: {x: 1100.9999, y: 502}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1229478372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,8 +1792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.5775, y: -9.94}
-  m_SizeDelta: {x: 305.81, y: 80.13}
+  m_AnchoredPosition: {x: -0.00065708, y: -8.54}
+  m_SizeDelta: {x: 213.42, y: 52.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1306849168
 MonoBehaviour:
@@ -2090,6 +2106,7 @@ GameObject:
   - component: {fileID: 1524797582}
   - component: {fileID: 1524797584}
   - component: {fileID: 1524797583}
+  - component: {fileID: 1524797585}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -2106,16 +2123,16 @@ RectTransform:
   m_GameObject: {fileID: 1524797581}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.27000004, y: 0.27000004, z: -0.30000007}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.005378487, y: 0.005378487, z: -0.005976097}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 487753283}
-  m_Father: {fileID: 1193148643}
+  m_Father: {fileID: 572286621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123.199974, y: 81}
-  m_SizeDelta: {x: 300, y: 60}
+  m_AnchoredPosition: {x: 0, y: 0.75}
+  m_SizeDelta: {x: 226.374, y: 35.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524797583
 MonoBehaviour:
@@ -2137,8 +2154,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31e7db9e387a8a249867d18230ec85ac, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 4507162162781784842, guid: 85e2ca6bddbce1b44adbce0a871a7b46, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2155,6 +2172,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524797581}
   m_CullTransparentMesh: 1
+--- !u!223 &1524797585
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524797581}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 3
+  m_TargetDisplay: 0
 --- !u!1 &1791952766
 GameObject:
   m_ObjectHideFlags: 0
