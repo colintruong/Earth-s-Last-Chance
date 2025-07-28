@@ -35,7 +35,6 @@ public class Brawler_Punch : MonoBehaviour {
         if (health != null) {
             health.TakeDamage(punchDamage);
 
-            // Stop punching if enemy is destroyed
             if (currentEnemy == null || currentEnemy.gameObject == null) {
                 animator.SetBool("Attacking", false);
                 moveScript.enabled = true;
