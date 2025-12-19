@@ -126,8 +126,7 @@ GameObject:
   - component: {fileID: 2370562197175052570}
   - component: {fileID: 8556440098202782110}
   - component: {fileID: 7505821209267420841}
-  - component: {fileID: -3724774449510850106}
-  - component: {fileID: -8715632754849054971}
+  - component: {fileID: -4553251393715441803}
   - component: {fileID: 1890945188045341812}
   m_Layer: 3
   m_Name: Skeleton
@@ -163,7 +162,7 @@ Animator:
   m_GameObject: {fileID: 8142094865393116357}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c5b40717f4c8154abebbb745591b697, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -202,7 +201,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3724774449510850106
+--- !u!114 &-4553251393715441803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,27 +210,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8142094865393116357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37262c52e03d0954baf5d237172000bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f62bd9f682106943a518fffcfda5d34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
---- !u!114 &-8715632754849054971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8142094865393116357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee83ca5e6d2c69649b31e3ff1b779d21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRadius: 0.3
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  punchDamage: 25
 --- !u!212 &1890945188045341812
 SpriteRenderer:
   m_ObjectHideFlags: 0
