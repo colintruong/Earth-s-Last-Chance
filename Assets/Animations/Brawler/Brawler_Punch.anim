@@ -95,42 +95,42 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: PunchAnimationEndEvent
+    functionName: AttackAnimationEndEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.14285715
-    functionName: PunchAnimationEndEvent
+    functionName: AttackAnimationEndEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.2857143
-    functionName: PunchAnimationEndEvent
+    functionName: AttackAnimationEndEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.42857143
-    functionName: PunchAnimationEndEvent
+    functionName: AttackAnimationEndEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.5714286
-    functionName: PunchDamageEvent
+    functionName: AttackDamageEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 1.1428572
-    functionName: PunchAnimationEndEvent
+    functionName: AttackAnimationEndEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
