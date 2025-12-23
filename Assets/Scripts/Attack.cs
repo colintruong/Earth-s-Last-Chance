@@ -3,9 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class Attack : MonoBehaviour {
     [Header("Attack Settings")]
-    public float detectionRadius = 1.5f;
+    public float detectionRadius;
     public LayerMask enemyLayer;
-    public float damage = 10f;
+    public float damage;
     public string attackAnimBool = "Attacking";
 
     [Header("Movement Control")]
@@ -40,7 +40,7 @@ public class Attack : MonoBehaviour {
     public void AttackDamageEvent() {
         if (currentTarget == null) return;
 
-        HealthBar health = currentTarget.GetComponent<HealthBar>();
+        HealthBar health = currentTarget.GetComponentInParent<HealthBar>();
         if (health != null) {
             health.TakeDamage(damage);
         }
