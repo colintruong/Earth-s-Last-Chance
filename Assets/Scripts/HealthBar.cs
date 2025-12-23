@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 
 public class HealthBar : MonoBehaviour {
-    [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private float maxHealth;
     [SerializeField] private float currentHealth;
     [SerializeField] private Image healthBarFill;
     [SerializeField] private GameObject healthBarUI;
@@ -14,6 +14,9 @@ public class HealthBar : MonoBehaviour {
 
     void Start() {
         currentHealth = maxHealth;
+    }
+
+    void Update() {
         UpdateHealthBar();
     }
     public void TakeDamage(float amount) {
@@ -34,7 +37,11 @@ public class HealthBar : MonoBehaviour {
             fillTween.Kill();
         }
         fillTween = healthBarFill.DOFillAmount(targetFillAmount, fillSpeed).SetEase(Ease.OutQuad);
-        healthBarUI.SetActive(targetFillAmount < 1f);
+        if (currentHealth == maxHealth) {
+            healthBarUI.SetActive(false);
+        } else {
+            healthBarUI.SetActive(targetFillAmount < 1f);
+        }
         healthBarFill.color = colorGradient.Evaluate(targetFillAmount);
     }
 
